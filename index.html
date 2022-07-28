@@ -12,44 +12,73 @@
     <title>LOVT</title>
 </head>
 
-<body>
-    <header>
-        <img id="logo" src="./img/logo.png">
-        <img id="iconeMenu" src="./img/navIcon.png">
-    </header>
-
-    <main>
-        <section id="bannerPrincipal">
-            <div class="setas"><img src="./img/setaEsquerda.png" alt="seta"></a></div>
-            <div class="setas"><img src="./img/setaDireita.png" alt="seta"></a></div>
+<body class="max-width-content">
+    <header class="display-flex color-white">
+        <section class="left display-flex">
+            <h1>LOVT</h1>
+            <h2>You Love, your loft!</h2>
         </section>
-        <section id="containerCartao">
-            <article class="cartao">
-                <div class="imagemCard">
-                    <img src="./img/new.jpg">
+        <section class="rigth">
+            <img id="iconeMenu" src="./img/navIcon.png">
+        </section>
+    </header>
+    <main class="max-width-content color-white">
+        <section class="banner display-flex">
+            <div class="seta"><img src="./img/setaEsquerda.svg" alt="seta"></div>
+            <div class="seta"><img src="./img/setaDireita.svg" alt="seta"></div>
+        </section>
+        <section class="cards max-width-content">
+            <div class="card">
+                <img src="./img/new_banner.svg" alt="new">
+                <div class="line_price">
+                    <h2>$1,200</h2>
+                    <div class="status status_new">New</div>
                 </div>
-                <div class="statusVenda">
-                    <span class="preco"><strong>$1,200</strong></span>
-                    <span id="statusNew">New</span>
+                <p class="description">Mussum Ipsum, cacilds vidis litro abertis. Delegadis gente finis, bibendum
+                    egestas augue arcu ut est. Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e
+                    fermentis. Casamentiss faiz malandris se pirulitá. Cevadis im ampola pa</p>
+            </div>
+            <div class="card">
+                <img src="./img/sale_banner.svg" alt="sale">
+                <div class="line_price">
+                    <h2>$2,000</h2>
+                    <div class="status status_sale">Sale</div>
                 </div>
-                <p>No meu xinélo da humildade eu gostaria muito de ver o Neymar e o Ganso. Por que eu acho que.... 11
-                    entre 10 brasileiros gostariam. Você veja, eu já vi, parei de ver. Voltei a ver, e acho que o Neymar
-                    e o Ganso têm essa capacidade de fazer a gente olhar.</p>
-            </article>
-            <article class="cartao">
-                <div class="imagemCard">
-                    <img src="./img/new.jpg">
-                </div>
-                <div class="statusVenda">
-                    <span class="preco"><strong>$1,500</strong></span>
-                    <span id="statusSale">Sale</span>
-                </div>
-                <p>No meu xinélo da humildade eu gostaria muito de ver o Neymar e o Ganso. Por que eu acho que.... 11
-                    entre 10 brasileiros gostariam. Você veja, eu já vi, parei de ver. Voltei a ver, e acho que o Neymar
-                    e o Ganso têm essa capacidade de fazer a gente olhar.</p>
-            </article>
+                <p class="description">Mussum Ipsum, cacilds vidis litro abertis. Delegadis gente finis, bibendum
+                    egestas augue arcu ut est. Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e
+                    fermentis. Casamentiss faiz malandris se pirulitá. Cevadis im ampola pa</p>
+            </div>
+        </section>
+        <section class="your_style">
+            <h2>Your Style</h2>
+            <section class="estilo display_flex industrial">Industrial</section>
+            <section class="estilo display_flex modern">Modern</section>
+            <section class="estilo display_flex classic">Classic</section>
         </section>
     </main>
+    <footer class="display_flex">
+        <section class="mapa display_flex">
+            <img src="./img/mapa.svg" alt="mapa">
+        </section>
+        <section class="info">
+            <div class="endereço ">
+                <ul class="display_flex">
+                    <li>LOVT - You love, your loft!</li>
+                    <li>Broad St, Newark, NJ 07102 - USA</li>
+                    <li>+1 (973) 854-555-548</li>                        
+                    <li>contact@lovtrealstate.com</li>
+                </ul>
+            </div>
+            <div class="social_midia display_flex">
+                <h2>OUR SOCIAL MEDIAS:</h2>
+                <div class="icones_midia display-flex">
+                    <img src="./img/insta_logo.svg" alt="logo insta">
+                    <img src="./img/face_logo.svg" alt="facebook logo">
+                    <img src="./img/whats_logo.svg" alt="whatsapp logo">
+                </div>
+            </div>
+        </section>
+    </footer>
 </body>
 
 </html>
